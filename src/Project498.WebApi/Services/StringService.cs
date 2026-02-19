@@ -14,7 +14,7 @@ public class StringService : IStringService
         return new string(charArray);
     }
     
-    public static string ReverseWords(string input)
+    public string ReverseWords(string input)
     {
         if (string.IsNullOrWhiteSpace(input))return input;
         var sb = new System.Text.StringBuilder();
